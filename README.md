@@ -46,8 +46,8 @@ if __name__ == "__main__":
 #### Complete Form Data Dictionary:
 ```json
 {
-    'username': 'example_user',
-    'email': 'user@example.com'
+    "username": "example_user",
+    "email": "user@example.com"
 }
 ```
 
