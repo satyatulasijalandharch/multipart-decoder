@@ -1,8 +1,8 @@
 """
-multipart_decoder - A lightweight Python package for decoding multipart/form-data content.
+multipart_decoder - A lightweight Python package for parsing multipart/form-data content.
 """
 
-from .decoder import MultipartDecoder
+from .decoder import MultipartFormParser
 
-__version__ = "0.1.0"
-__all__ = ["MultipartDecoder"]
+__version__ = "0.0.1"
+__all__ = ["MultipartFormParser"]
