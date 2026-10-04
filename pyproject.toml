@@ -29,6 +29,9 @@ classifiers = [
 license = "MIT"
 license-files = ["LICENSE*"]
 
+[tool.setuptools.dynamic]
+version = {attr = "multipart_decoder.__version__"}
+
 [project.urls]
 Homepage = "https://github.com/satyatulasijalandharch/multipart-decoder"
 Issues = "https://github.com/satyatulasijalandharch/multipart-decoder/issues"
