@@ -55,7 +55,7 @@ class TestMultipartFormParser(unittest.TestCase):
         """Test validation of empty request body."""
         content_type = "multipart/form-data; boundary=something"
         body = ""
-        
+
         with self.assertRaises(ValueError) as context:
             MultipartFormParser(body, content_type)
         self.assertIn("Request body cannot be empty", str(context.exception))
@@ -65,7 +65,7 @@ class TestMultipartFormParser(unittest.TestCase):
         content_type = "multipart/form-data; boundary=boundary"
         # Base64 encoded partial/malformed multipart data
         body = "LS0tYm91bmRhcnkNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsNCg=="
-        
+
         with self.assertRaises(Exception) as context:
             MultipartFormParser(body, content_type)
         self.assertIn("Failed to", str(context.exception))

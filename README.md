@@ -1,6 +1,10 @@
-# multipart_decoder
+# Multipart Decoder
 
-A lightweight Python package for parsing multipart/form-data content.
+[![Version](https://img.shields.io/pypi/v/multipart-decoder.svg?maxAge=86400)](https://pypi.org/project/multipart-decoder/)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/multipart-decoder.svg)](https://pypi.org/project/multipart-decoder)
+[![Downloads](https://static.pepy.tech/badge/multipart-decoder/month)](https://pepy.tech/project/multipart-decoder)
+
+**Multipart Decoder** is a lightweight Python package for parsing multipart/form-data content.
 
 ## Installation
 
